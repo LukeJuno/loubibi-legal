@@ -5,7 +5,7 @@ title: Loubibi Privacy Policy
 
 # Loubibi Privacy Policy
 
-**Last updated: 4 October 2026**
+**Last updated: 21 October 2026**
 
 Loubibi ("**we**", "**us**", "**our**") makes a mobile app for tracking a baby's sleep, feeding,
 diaper changes, pumping, growth and milestones with your family or other caregivers. This policy
@@ -54,7 +54,7 @@ don't sell or share your information with data brokers or advertisers.
 We use the information above to:
 - Create and secure your account, and let you sign in.
 - Store and sync your family's entries across devices and caregivers.
-- Let you invite other caregivers to your family, via a short, single-use invite code.
+- Let you invite other caregivers to your family, via a single-use invite code or link.
 - Operate, maintain, and troubleshoot the app.
 - Comply with legal obligations.
 
@@ -79,6 +79,17 @@ our users or the public.
 Your data is stored on Google Cloud infrastructure via Firebase. Firebase may process and store
 data in the United States or other countries where Google operates data centers. By using the app,
 you consent to this transfer.
+
+### Stored on your phone
+So the app keeps working without a connection, it also keeps some of your family's information **on your own phone**, in the app's private storage:
+changes you have made that haven't reached our servers yet (for example, a feed logged in airplane mode), and a saved copy of recent entries that
+is shown right after the app starts. This copy is tied to your account and your family. It is removed when you sign out (you can choose to
+discard unsent changes at that time), when you delete your account, and when you lose access to the family. Changes that have not been
+sent can be exported to a file from the app before they are discarded.
+
+### On your Home Screen and Lock Screen
+The Home Screen widget and the Lock Screen / Dynamic Island timer show your baby's name, recent entries and running timers. Anyone who can see your
+locked phone can read what they show. They are cleared when you sign out or delete your account.
 
 ## 6. How long we keep your data
 
