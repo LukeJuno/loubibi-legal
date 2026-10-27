@@ -5,7 +5,7 @@ title: Loubibi Privacy Policy
 
 # Loubibi Privacy Policy
 
-**Last updated: 21 October 2026**
+**Last updated: 27 October 2026**
 
 Loubibi ("**we**", "**us**", "**our**") makes a mobile app for tracking a baby's sleep, feeding,
 diaper changes, pumping, growth and milestones with your family or other caregivers. This policy
@@ -38,9 +38,10 @@ When you create an account, we collect:
 - **Language preference.**
 
 ### Information collected automatically
-- Basic diagnostic information needed to keep the app working (for example, that a request to our
-  database succeeded or failed). We do not use third-party analytics or advertising SDKs, and the
-  app does not track you across other apps or websites.
+- We do not run analytics or crash-reporting tools, and the app does not send diagnostic or usage
+  data to us. Like any app that stores data online, our database provider (Google Firebase)
+  processes the requests the app makes to store and read your data. We do not use third-party
+  analytics or advertising SDKs, and the app does not track you across other apps or websites.
 - **Local notifications:** reminders (for example, "this nap has been running a while") are
   scheduled and shown entirely on your device. We don't send push notifications from a server, and
   no notification content is transmitted to us.
