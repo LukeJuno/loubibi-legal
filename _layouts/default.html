@@ -10,7 +10,10 @@
 <body>
   <header class="top">
     <a class="brand" href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/loubibi-logo.svg' | relative_url }}" alt="Loubibi" height="54">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="{{ '/assets/loubibi-logo.svg' | relative_url }}">
+        <img src="{{ '/assets/loubibi-logo-light.svg' | relative_url }}" alt="Loubibi" height="54">
+      </picture>
     </a>
     <nav>
       <a href="{{ '/privacy-policy.html' | relative_url }}">Privacy</a>

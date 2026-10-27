@@ -22,13 +22,17 @@ body {
   font: 17px/1.65 "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 .top {
-  background: #5f7152; display: flex; align-items: center; justify-content: space-between;
+  background: #ffffff; border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between;
   padding: 14px max(20px, calc((100% - 760px) / 2));
 }
 .brand { display: flex; align-items: center; text-decoration: none; }
 .brand img { display: block; height: 54px; width: auto; }
-.top nav a { color: #f1f3ea; text-decoration: none; font-weight: 600; margin-left: 18px; }
+.top nav a { color: #2f2924; text-decoration: none; font-weight: 600; margin-left: 18px; }
 .top nav a:hover { text-decoration: underline; }
+@media (prefers-color-scheme: dark) {
+  .top { background: #5f7152; border-bottom-color: #5f7152; }
+  .top nav a { color: #f1f3ea; }
+}
 main {
   max-width: 760px; margin: 28px auto 0; padding: 28px clamp(20px, 5vw, 44px) 40px;
   background: var(--surface); border: 1px solid var(--line); border-radius: 22px;
